@@ -11,7 +11,8 @@ const users=[
   return(
     <div className="App">
     <h1> List with Bootstrap Table</h1>
-    <Table>
+    <Table striped variant='dark'>
+      <tbody>
       <tr>
       
         <td>Name</td>
@@ -28,6 +29,7 @@ const users=[
       </tr>
       )
     }
+      </tbody>
       </Table>       
      </div>
     );
